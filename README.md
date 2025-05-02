@@ -29,5 +29,12 @@
 ## Database
 - In docker-compose.yml you can choose database mysql or postgresql
 
+## Docker Files
+- `docker-compose.yml` - Docker Compose file
+- `docker/app/Dockerfile` - Dockerfile for the app
+- `docker/nginx/Dockerfile` - Dockerfile for Nginx
+- `docker/nginx/vhost.conf` - Nginx configuration file
+- `docker/mysql/my.cnf` - MySQL configuration file
+
 ___   
 > unsorry@2025
