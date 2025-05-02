@@ -28,6 +28,9 @@
 
 ## Database
 - In docker-compose.yml you can choose database mysql or postgresql
+- Postgresql is the default database in the docker-compose.yml file
+- You can change the database in the docker-compose.yml file
+- Postgresql uses a docker image from kartoza/postgis which already supports storing spatial data
 
 ## Docker Files
 - `docker-compose.yml` - Docker Compose file
